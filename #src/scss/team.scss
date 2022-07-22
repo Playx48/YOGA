@@ -19,7 +19,7 @@
 }
 
 .team__article {
-  width: 33.33%;
+  width: calc(100%/3);
   height: 395px;
   float: left;
   position: relative;
