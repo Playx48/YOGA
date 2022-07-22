@@ -1,0 +1,664 @@
+<!DOCTYPE html>
+<html lang="ru">
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>YOGA</title>
+		<link rel="stylesheet" href="css/style.min.css">
+	</head>
+	<body>
+		<header class="main-header">
+			<nav class="main-header__nav main-nav container">
+				<a class="main-nav__logo" href="#">
+					<img class="main-nav__logo-img" src="img/logo.svg" width="181" height="116" alt="Логотип студии Йоги">  
+				</a>
+				<ul class="main-nav__list nav-list">
+					<li class="nav-list__item">
+						<a class="nav-list__link" href="#courses">Направления</a>
+					</li>
+					<li class="nav-list__item">
+						<a class="nav-list__link" href="#club-cards">Абонементы</a>
+					</li>
+					<li class="nav-list__item">
+						<a class="nav-list__link" href="#our-team">Наша команда</a>
+					</li>
+					<li class="nav-list__item">
+						<a class="nav-list__link" href="#gallery">Галерея</a>
+					</li>
+					<li class="nav-list__item">
+						<a class="nav-list__link" href="#reviews">Отзывы</a>
+					</li>
+				</ul>
+				<a class="main-nav__tel" href="tel:8(812)690-10-10">8 (812) 690-10-10</a>
+			</nav>
+		</header>
+		<main class="page-main">
+			<h1 class="visually-hidden">Студия Йоги</h1>
+			<section class="promo container" >
+				<h2 class="promo__title" id="promo">yoga</h2>
+				<p class="promo__slogan">Почувствуй расслабление в своем теле</p>
+				<a class="promo__link" href="#">Запишитесь на бесплатное пробное занятие</a>
+				<div class="promo__wrapper promo-contacts">
+					<ul class="promo-contacts__social-list social-list">
+						<li class="social-list__item">
+							<a class="social-list__link social-list__link--vk" href="#">
+								<img class="social-list__img" src="img/logo-vk.svg" width="13" height="8" alt="ВК">
+							</a>
+						</li>
+						<li class="social-list__item">
+							<a class="social-list__link social-list__link--tw" href="#">
+								<img class="social-list__img" src="img/logo-tw.svg" width="15" height="10" alt="Твиттер">
+							</a>
+						</li>
+						<li class="social-list__item">
+							<a class="social-list__link social-list__link--fb" href="#">
+								<img class="social-list__img" src="img/logo-fb.svg" width="5" height="10" alt="Твиттер">
+							</a>
+						</li>
+					</ul>	
+					<p class="promo-contacts__city">Санкт-Петербург</p>
+				</div>
+			</section>
+			<section class="courses container" id="courses">
+				<h2 class="courses__title section-title">Направления</h2>
+				<div class="courses__wrapper">
+					<ul class="courses-list">
+						<li class="courses-list__item course course--big">
+							<h3 class="course__title">Хатха-йога</h3>
+							<picture class="course__picture">
+								<source type="image/jpeg" 
+										srcset="img/course-hatga@1x.jpg 1x,
+												img/course-hatga@2x.jpg 2x">
+								<img class="course__image" src="img/course-hatga@1x.jpg" srcset="img/course-hatga@2x.jpg 2x" alt="Хатга йога" width="350" height="250">
+							</picture>
+							<p class="course__timetable">Пн, Ср, Пт – с 10:00 до 12:00 <br> Вт, Чт – с 19:00 до 21:00 
+							</p>
+							<div class="course__wrapper course-trainer">
+								<p class="course-trainer__name">Инструктор <br> Понкратова Анастасия</p>
+								<a class="course-trainer__link" href="#">
+									<img class="course__image" src="img/course-arrow.svg" width="45" height="30" alt="пройти по ссылке">
+								</a>
+							</div>
+						</li>
+						<li class="courses-list__item course">
+							<h3 class="course__title">Ашатанга-йога</h3>
+							<picture class="course__picture">
+								<source type="image/jpeg" 
+										srcset="img/course-ashatanga@1x.jpg 1x,
+												img/course-ashatanga@2x.jpg 2x">
+								<img class="course__image" src="img/course-ashatanga@1x.jpg" srcset="img/course-ashatanga@2x.jpg 2x" alt="Ашатанга-йога" width="250" height="150">
+							</picture>
+							<p class="course__timetable">Пн, Ср – с 12:00 до 14:00 <br> Чт – с 15:00 до 17:00 
+							</p>
+							<div class="course__wrapper course-trainer">
+								<p class="course-trainer__name">Инструктор <br> Емельянова Полина</p>
+								<a class="course-trainer__link" href="#">
+									<img class="course__image" src="img/course-arrow.svg" width="45" height="30" alt="пройти по ссылке">
+								</a>
+							</div>
+						</li>
+						<li class="courses-list__item course">
+							<h3 class="course__title">Кундалини-йога</h3>
+							<picture class="course__picture">
+								<source type="image/jpeg" 
+										srcset="img/course-kundalini@1x.jpg 1x,
+												img/course-kundalini@2x.jpg 2x">
+								<img class="course__image" src="img/course-kundalini@1x.jpg" srcset="img/course-kundalini@2x.jpg 2x" alt="Кундалини-йога" width="250" height="150">
+							</picture>
+							<p class="course__timetable">Пн, Ср, Пт – с 09:00 до 10:30 <br> Вт, Чт – с 08:30 до 10:00 
+							</p>
+							<div class="course__wrapper course-trainer">
+								<p class="course-trainer__name">Инструктор <br> Попов Серёжа</p>
+								<a class="course-trainer__link" href="#">
+									<img class="course__image" src="img/course-arrow.svg" width="45" height="30" alt="пройти по ссылке">
+								</a>
+							</div>
+						</li>
+						<li class="courses-list__item course">
+							<h3 class="course__title">Бикрам-йога</h3>
+							<picture class="course__picture">
+								<source type="image/jpeg" 
+										srcset="img/course-bikram@1x.jpg 1x,
+												img/course-bikram@2x.jpg 2x">
+								<img class="course__image" src="img/course-bikram@1x.jpg" srcset="img/course-bikram@2x.jpg 2x" alt="Бикрам-йога" width="250" height="150">
+							</picture>
+							<p class="course__timetable">Пт – с 16:00 до 18:00 <br> Вт – с 15:00 до 17:00  
+							</p>
+							<div class="course__wrapper course-trainer">
+								<p class="course-trainer__name">Инструктор <br> Емельянова Полина</p>
+								<a class="course-trainer__link" href="#">
+									<img class="" src="img/course-arrow.svg" width="45" height="30" alt="пройти по ссылке">
+								</a>
+							</div>
+						</li>						
+					</ul>
+				</div>
+			</section>
+			<section class="club-cards container" id="club-cards">
+				<h2 class="club-cards__title title">Абонементы</h2>
+				<ul class="club-cards_months months">
+					<li class="months__item">
+						<a class="months__link" href="#">1 месяц</a>
+					</li>
+					<li class="months__item">
+						<a class="months__link" href="#">6 месяцев</a>
+					</li>
+					<li class="months__item">
+						<a class="months__link" href="#">12 месяцев</a>
+					</li>
+				</ul>
+				<div class="club-cards__wrapper">
+					<ul class="club_cards__list cards-list">
+						<li class="cards-list__item card">
+							<h3 class="card__title">Утро</h3>
+							<p class="card__time">Посещение <br> с 08:00 до 16:00</p>
+							<p class="card__price">1 300 Р</p>
+							<a class="card__order" href="#">Заказать абонемент</a>
+						</li>
+						<li class="cards-list__item card card--center">
+							<h3 class="card__title card__title--center">Безлимит</h3>
+							<p class="card__time card__time--center">Посещение не ограничено <br> по времени</p>
+							<p class="card__price card__price--center">2 800 Р</p>
+							<a class="card__order card__order--center" href="#">Заказать абонемент</a>
+						</li>
+						<li class="cards-list__item card">
+							<h3 class="card__title">Вечер</h3>
+							<p class="card__time">Посещение <br> с 17:00 до 21:00</p>
+							<p class="card__price">2 000 Р</p>
+							<a class="card__order" href="#">Заказать абонемент</a>
+						</li>
+					</ul>
+				</div>
+			</section>
+			<section class="our-team container" id="our-team">
+				<h2 class="our-team__title title">Наша команда</h2>
+				<div class="our-team__wrapper team">
+					<input class="team__input" type="radio" name="slider" id="slide1" checked>
+					<input class="team__input" type="radio" name="slider" id="slide2">
+					<input class="team__input" type="radio" name="slider" id="slide3">
+					<div class="team__slider-wrapper">
+						<div class="team__inner">
+							<article class="team__article">
+								<div class="team__info team-info">
+									<div class="team-info__picture">
+										<picture>
+											<source type="image/jpeg" 
+													srcset="img/team-1@1x.jpg 1x,
+															img/team-1@2x.jpg 2x">
+											<img class="team-info__image" src="img/team-1@1x.jpg" srcset="img/team-1@2x.jpg 2x" alt="Сережа Попов" width="335" height="335">
+										</picture>
+									</div>
+									<div class="team-info__text">
+										<div class="team-info__inner">
+											<h3 class="team-info__title">Серёжа Попов</h3>
+											<p class="team-info__experience">Опыт преподавания: 8 лет</p>
+										</div>
+										<p class="team-info__presentation">Образование и опыт работы: Практикует с 2011 года, является сертифицированным 
+											инструктором по Кундалини-йоге. Большой опыт преподавания йоги для начинающих
+											 и продолжающих</p>
+										<br>
+										<p class="team-info__presentation">Обучался в Индии (International Association of Yoga: classical yoga, 
+											master of principles yoga therapy), Непале (опыт медитативных
+											 и дыхательных техник, проживание в Ашраме), Москва (Аштанга йога 
+											центр 108 А. Константинова), Московский центр классической 
+											йоги Виктора Бойко.
+										</p>
+										<br>
+										<p class="team-info__presentation">
+											Сертифицированный инструктор по фитнесу и йоге (БГУФК), 
+											по массажу <br> (Оздоровительный Витал – центр №401). 
+										</p>
+									</div>
+								</div>
+								<p class="team-info__num">1/3</p>
+						  	</article>
+							<article class="team__article">
+								<div class="team__info team-info">
+									<div class="team-info__picture">
+										<picture>
+											<source type="image/jpeg" 
+													srcset="img/team-2@1x.jpg 1x,
+															img/team-2@2x.jpg 2x">
+											<img class="team-info__image" src="img/team-2@1x.jpg" srcset="img/team-2@2x.jpg 2x" alt="Понкратова Анастасия" width="335" height="335">
+										</picture>
+									</div>
+									<div class="team-info__text">
+										<div class="team-info__inner">
+											<h3 class="team-info__title">Понкратова Анастасия</h3>
+											<p class="team-info__experience">Опыт преподавания: 6 лет</p>
+										</div>
+										<p class="team-info__presentation">Образование и опыт работы: Практикует с 2011 года, является сертифицированным 
+											инструктором по Кундалини-йоге. Большой опыт преподавания йоги для начинающих
+											 и продолжающих</p>
+										<br>
+										<p class="team-info__presentation">Обучалась в Индии (International Association of Yoga: classical yoga, 
+											master of principles yoga therapy), Непале (опыт медитативных
+											 и дыхательных техник, проживание в Ашраме), Москва (Аштанга йога 
+											центр 108 А. Константинова), Московский центр классической 
+											йоги Виктора Бойко.
+										</p>
+										<br>
+										<p class="team-info__presentation">
+											Сертифицированный инструктор по фитнесу и йоге (БГУФК), 
+											по массажу <br> (Оздоровительный Витал – центр №401). 
+										</p>
+									</div>
+								</div>
+								<p class="team-info__num">2/3</p>
+						  	</article>
+							<article class="team__article">
+								<div class="team__info team-info">
+									<div class="team-info__picture">
+										<picture>
+											<source type="image/jpeg" 
+													srcset="img/team-3@1x.jpg 1x,
+															img/team-3@2x.jpg 2x">
+											<img class="team-info__image" src="img/team-3@1x.jpg" srcset="img/team-3@2x.jpg 2x" alt="Емельянова Полина" width="335" height="335">
+										</picture>
+									</div>
+									<div class="team-info__text">
+										<div class="team-info__inner">
+											<h3 class="team-info__title">Емельянова Полина</h3>
+											<p class="team-info__experience">Опыт преподавания: 5 лет</p>
+										</div>
+										<p class="team-info__presentation">Образование и опыт работы: Практикует с 2011 года, является сертифицированным 
+											инструктором по Кундалини-йоге. Большой опыт преподавания йоги для начинающих
+											 и продолжающих</p>
+										<br>
+										<p class="team-info__presentation">Обучалась в Индии (International Association of Yoga: classical yoga, 
+											master of principles yoga therapy), Непале (опыт медитативных
+											 и дыхательных техник, проживание в Ашраме), Москва (Аштанга йога 
+											центр 108 А. Константинова), Московский центр классической 
+											йоги Виктора Бойко.
+										</p>
+										<br>
+										<p class="team-info__presentation">
+											Сертифицированный инструктор по фитнесу и йоге (БГУФК), 
+											по массажу <br> (Оздоровительный Витал – центр №401). 
+										</p>
+									</div>
+								</div>
+								<p class="team-info__num">3/3</p>
+						  	</article>
+						</div>
+					</div>
+					<div class="team__slider-prev-next-control">
+						<label for="slide1"></label>
+						<label for="slide2"></label>
+						<label for="slide3"></label>
+					</div>
+					<div class="team__slider-dot-control">
+						<label for="slide1">
+							<img src="img/team-dot1@1x.jpg" srcset="img/team-dot1@2x.jpg 2x" alt="Сережа Попов" width="125" height="125">
+						</label>
+						<label for="slide2">
+							<img src="img/team-dot2@1x.jpg" srcset="img/team-dot2@2x.jpg 2x" alt="Маша Гребенькова" width="125" height="125">
+						</label>
+						<label for="slide3">
+							<img src="img/team-dot3@1x.jpg" srcset="img/team-dot3@2x.jpg 2x" alt="Сережа Попов" width="125" height="125">
+						</label>
+					</div>
+				</div>	
+			</section>
+			<section class="gallery container" id="gallery">
+				<h2 class="gallery__title title">Галерея</h2>
+				<div class="gallery__wrapper">
+					<ul class="gallery__list gallery-fotos">
+						<li class="gallery-fotos__item">
+							<picture class="gallery-fotos__picture">
+								<source type="image/jpeg" 
+										srcset="img/gallery-1@1x.jpg 1x,
+												img/gallery-1@2x.jpg 2x">
+								<img class="gallery-fotos__image" src="img/gallery-1@1x.jpg" srcset="img/gallery-1@2x.jpg 2x" alt="Фото из галереи 1" width="219" height="200">
+							</picture>
+						</li>
+						<li class="gallery-fotos__item">
+							<picture class="gallery-fotos__picture">
+								<source type="image/jpeg" 
+										srcset="img/gallery-2@1x.jpg 1x,
+												img/gallery-2@2x.jpg 2x">
+								<img class="gallery-fotos__image" src="img/gallery-2@1x.jpg" srcset="img/gallery-2@2x.jpg 2x" alt="Фото из галереи 2" width="352" height="200">
+							</picture>
+						</li>
+						<li class="gallery-fotos__item">
+							<picture class="gallery-fotos__picture">
+								<source type="image/jpeg" 
+										srcset="img/gallery-3@1x.jpg 1x,
+												img/gallery-3@2x.jpg 2x">
+								<img class="gallery-fotos__image" src="img/gallery-3@1x.jpg" srcset="img/gallery-3@2x.jpg 2x" alt="Фото из галереи 3" width="91" height="200">
+							</picture>
+						</li>
+						<li class="gallery-fotos__item">
+							<picture class="gallery-fotos__picture">
+								<source type="image/jpeg" 
+										srcset="img/gallery-4@1x.jpg 1x,
+												img/gallery-4@2x.jpg 2x">
+								<img class="gallery-fotos__image" src="img/gallery-4@1x.jpg" srcset="img/gallery-4@2x.jpg 2x" alt="Фото из галереи 4" width="317" height="200">
+							</picture>
+						</li>
+						<li class="gallery-fotos__item">
+							<picture class="gallery-fotos__picture">
+								<source type="image/jpeg" 
+										srcset="img/gallery-5@1x.jpg 1x,
+												img/gallery-5@2x.jpg 2x">
+								<img class="gallery-fotos__image" src="img/gallery-5@1x.jpg" srcset="img/gallery-5@2x.jpg 2x" alt="Фото из галереи 5" width="355" height="200">
+							</picture>
+						</li>
+						<li class="gallery-fotos__item">
+							<picture class="gallery-fotos__picture">
+								<source type="image/jpeg" 
+										srcset="img/gallery-6@1x.jpg 1x,
+												img/gallery-6@2x.jpg 2x">
+								<img class="gallery-fotos__image" src="img/gallery-6@1x.jpg" srcset="img/gallery-6@2x.jpg 2x" alt="Фото из галереи 6" width="114" height="200">
+							</picture>
+						</li>
+						<li class="gallery-fotos__item">
+							<picture class="gallery-fotos__picture">
+								<source type="image/jpeg" 
+										srcset="img/gallery-7@1x.jpg 1x,
+												img/gallery-7@2x.jpg 2x">
+								<img class="gallery-fotos__image" src="img/gallery-7@1x.jpg" srcset="img/gallery-7@2x.jpg 2x" alt="Фото из галереи 7" width="290" height="200">
+							</picture>
+						</li>
+						<li class="gallery-fotos__item">
+							<picture class="gallery-fotos__picture">
+								<source type="image/jpeg" 
+										srcset="img/gallery-8@1x.jpg 1x,
+												img/gallery-8@2x.jpg 2x">
+								<img class="gallery-fotos__image" src="img/gallery-8@1x.jpg" srcset="img/gallery-8@2x.jpg 2x" alt="Фото из галереи 8" width="220" height="200">
+							</picture>
+						</li>
+						<li class="gallery-fotos__item">
+							<picture class="gallery-fotos__picture">
+								<source type="image/jpeg" 
+										srcset="img/gallery-9@1x.jpg 1x,
+												img/gallery-9@2x.jpg 2x">
+								<img class="gallery-fotos__image" src="img/gallery-9@1x.jpg" srcset="img/gallery-9@2x.jpg 2x" alt="Фото из галереи 9" width="301" height="200">
+							</picture>
+						</li>
+						<li class="gallery-fotos__item">
+							<picture class="gallery-fotos__picture">
+								<source type="image/jpeg" 
+										srcset="img/gallery-10@1x.jpg 1x,
+												img/gallery-10@2x.jpg 2x">
+								<img class="gallery-fotos__image" src="img/gallery-10@1x.jpg" srcset="img/gallery-10@2x.jpg 2x" alt="Фото из галереи 10" width="230" height="200">
+							</picture>
+						</li>
+						<li class="gallery-fotos__item">
+							<picture class="gallery-fotos__picture">
+								<source type="image/jpeg" 
+										srcset="img/gallery-11@1x.jpg 1x,
+												img/gallery-11@2x.jpg 2x">
+								<img class="gallery-fotos__image" src="img/gallery-11@1x.jpg" srcset="img/gallery-11@2x.jpg 2x" alt="Фото из галереи 11" width="359" height="200">
+							</picture>
+						</li>
+						<li class="gallery-fotos__item">
+							<picture class="gallery-fotos__picture">
+								<source type="image/jpeg" 
+										srcset="img/gallery-12@1x.jpg 1x,
+												img/gallery-12@2x.jpg 2x">
+								<img class="gallery-fotos__image" src="img/gallery-12@1x.jpg" srcset="img/gallery-12@2x.jpg 2x" alt="Фото из галереи 12" width="91" height="200">
+							</picture>
+						</li>
+					</ul>
+				</div>
+			</section>
+			<section class="reviews container" id="reviews">
+				<h2 class="reviews__title">Отзывы</h2>
+				<div class="reviews__wrapper review">
+					<input class="review__input" type="radio" name="slider-review" id="slide1-review" checked>
+					<input class="review__input" type="radio" name="slider-review" id="slide2-review">
+					<input class="review__input" type="radio" name="slider-review" id="slide3-review">
+					<div class="review__slider-wrapper">
+						<div class="review__inner">
+							<article class="review__article">
+								<h3 class="visually-hidden">Отзывы о курсах йоги</h3>
+								<div class="review__left review-item">
+									<blockquote class="reviev-item__blockquote">
+										Хожу на йогу вечером, чтобы расслабиться 
+										после  тяжелого трудового дня. И после занятий 
+										наступает спокойствие! <br>
+										Йога это отличный способ быстро
+										и качественно расслабиться.
+										Спасибо инструктору Серёже.
+									</blockquote>
+									<div class="review-item__wrapper">
+										<img class="review-item__foto" src="img/review-1@1x.jpg" srcset="img/review-1@2x.jpg 2x" width="51" height="51" alt="Фото автора отзыва">
+										<div class="review-item__inner">
+											<cite class="review-item__name">Алекс Войтенко</cite>
+											<time class="review-item__time" datetime="2020-03-03 00:00">3 марта 2020</time>
+											<ul class="review-item__social-list social-list">
+												<li class="social-list__item">
+													<a class="social-list__link social-list__link--vk" href="#">
+														<img class="social-list__img" src="img/logo-vk.svg" width="13" height="8" alt="ВК">
+													</a>
+												</li>
+												<li class="social-list__item">
+													<a class="social-list__link social-list__link--tw" href="#">
+														<img class="social-list__img" src="img/logo-tw.svg" width="15" height="10" alt="Твиттер">
+													</a>
+												</li>
+											</ul>	
+										</div>
+									</div>
+								</div>
+								<div class="review__right review-item">
+									<blockquote class="reviev-item__blockquote">
+										Наверное, каждому человеку хочется стать 
+										лучше и совершеннее. Но при этом многие
+										подразумевают исключительно физическое
+										здоровье и внешний вид. О духовной
+										составляющей задумываются не так часто.<br>
+										Вот именно йога - это комплекс занятий.
+										Всем рекомендую! 
+									</blockquote>
+									<div class="review-item__wrapper">
+										<img class="review-item__foto" src="img/review-2@1x.jpg" srcset="img/review-2@2x.jpg 2x" width="51" height="51" alt="Фото автора отзыва">
+										<div class="review-item__inner">
+											<cite class="review-item__name">Злата Хитрова</cite>
+											<time class="review-item__time" datetime="2020-03-07 00:00">7 марта 2020</time>
+											<ul class="review-item__social-list social-list">
+												<li class="social-list__item">
+													<a class="social-list__link social-list__link--vk" href="#">
+														<img class="social-list__img" src="img/logo-vk.svg" width="13" height="8" alt="ВК">
+													</a>
+												</li>
+												<li class="social-list__item">
+													<a class="social-list__link social-list__link--tw" href="#">
+														<img class="social-list__img" src="img/logo-tw.svg" width="15" height="10" alt="Твиттер">
+													</a>
+												</li>
+											</ul>	
+										</div>
+									</div>
+								</div>
+						  	</article>
+							<article class="review__article">
+								<h3 class="visually-hidden">Отзывы о курсах йоги</h3>
+								<div class="review__left review-item">
+									<blockquote class="reviev-item__blockquote">
+										Хожу на йогу вечером, чтобы расслабиться 
+										после  тяжелого трудового дня. <br>И после занятий 
+										наступает спокойствие! <br>
+										Йога это отличный способ быстро
+										и качественно расслабиться.<br>
+										Спасибо инструктору Серёже.
+									</blockquote>
+									<div class="review-item__wrapper">
+										<img class="review-item__foto" src="img/team-dot1@1x.jpg" srcset="img/team-do1@2x.jpg 2x" width="51" height="51" alt="Фото автора отзыва">
+										<div class="review-item__inner">
+											<cite class="review-item__name">Максим Величко</cite>
+											<time class="review-item__time" datetime="2020-03-12 00:00">12 марта 2020</time>
+											<ul class="review-item__social-list social-list">
+												<li class="social-list__item">
+													<a class="social-list__link social-list__link--vk" href="#">
+														<img class="social-list__img" src="img/logo-vk.svg" width="13" height="8" alt="ВК">
+													</a>
+												</li>
+												<li class="social-list__item">
+													<a class="social-list__link social-list__link--tw" href="#">
+														<img class="social-list__img" src="img/logo-tw.svg" width="15" height="10" alt="Твиттер">
+													</a>
+												</li>
+											</ul>	
+										</div>
+									</div>
+								</div>
+								<div class="review__right review-item">
+									<blockquote class="reviev-item__blockquote">
+										Наверное, каждому человеку хочется стать 
+										лучше и совершеннее. Но при этом многие
+										подразумевают исключительно физическое
+										здоровье и внешний вид.<br> О духовной
+										составляющей задумываются не так часто.<br>
+										Вот именно йога - это комплекс занятий.
+									</blockquote>
+									<div class="review-item__wrapper">
+										<img class="review-item__foto" src="img/team-dot2@1x.jpg" srcset="img/team-dot2@2x.jpg 2x" width="51" height="51" alt="Фото автора отзыва">
+										<div class="review-item__inner">
+											<cite class="review-item__name">Марьяна Наумова</cite>
+											<time class="review-item__time" datetime="2020-03-15 00:00">15 марта 2020</time>
+											<ul class="review-item__social-list social-list">
+												<li class="social-list__item">
+													<a class="social-list__link social-list__link--vk" href="#">
+														<img class="social-list__img" src="img/logo-vk.svg" width="13" height="8" alt="ВК">
+													</a>
+												</li>
+												<li class="social-list__item">
+													<a class="social-list__link social-list__link--tw" href="#">
+														<img class="social-list__img" src="img/logo-tw.svg" width="15" height="10" alt="Твиттер">
+													</a>
+												</li>
+											</ul>	
+										</div>
+									</div>
+								</div>
+						  	</article>
+							<article class="review__article">
+								<h3 class="visually-hidden">Отзывы о курсах йоги</h3>
+								<div class="review__left review-item">
+									<blockquote class="reviev-item__blockquote">
+										Хожу на йогу вечером, чтобы расслабиться 
+										после  тяжелого трудового дня. И после занятий 
+										наступает спокойствие! 
+										Йога это отличный способ быстро
+										и качественно расслабиться.<br>
+										Спасибо инструктору Серёже.
+									</blockquote>
+									<div class="review-item__wrapper">
+										<img class="review-item__foto" src="img/review-1@1x.jpg" srcset="img/review-1@2x.jpg 2x" width="51" height="51" alt="Фото автора отзыва">
+										<div class="review-item__inner">
+											<cite class="review-item__name">Алекс Войтенко</cite>
+											<time class="review-item__time" datetime="2020-03-20 00:00">20 марта 2020</time>
+											<ul class="review-item__social-list social-list">
+												<li class="social-list__item">
+													<a class="social-list__link social-list__link--vk" href="#">
+														<img class="social-list__img" src="img/logo-vk.svg" width="13" height="8" alt="ВК">
+													</a>
+												</li>
+												<li class="social-list__item">
+													<a class="social-list__link social-list__link--tw" href="#">
+														<img class="social-list__img" src="img/logo-tw.svg" width="15" height="10" alt="Твиттер">
+													</a>
+												</li>
+											</ul>	
+										</div>
+									</div>
+								</div>
+								<div class="review__right review-item">
+									<blockquote class="reviev-item__blockquote">
+										Наверное, каждому человеку хочется стать 
+										лучше и совершеннее. Но при этом многие
+										подразумевают исключительно физическое
+										здоровье и внешний вид. О духовной
+										составляющей задумываются не так часто.
+									</blockquote>
+									<div class="review-item__wrapper">
+										<img class="review-item__foto" src="img/team-dot3@1x.jpg" srcset="img/team-dot3@2x.jpg 2x" width="51" height="51" alt="Фото автора отзыва">
+										<div class="review-item__inner">
+											<cite class="review-item__name">Виктория Полухина</cite>
+											<time class="review-item__time" datetime="2020-03-28 00:00">28 марта 2020</time>
+											<ul class="review-item__social-list social-list">
+												<li class="social-list__item">
+													<a class="social-list__link social-list__link--vk" href="#">
+														<img class="social-list__img" src="img/logo-vk.svg" width="13" height="8" alt="ВК">
+													</a>
+												</li>
+												<li class="social-list__item">
+													<a class="social-list__link social-list__link--tw" href="#">
+														<img class="social-list__img" src="img/logo-tw.svg" width="15" height="10" alt="Твиттер">
+													</a>
+												</li>
+											</ul>	
+										</div>
+									</div>
+								</div>
+						  	</article>
+						</div>
+					</div>
+					<div class="review__slider-prev-next-control">
+						<label for="slide1-review"></label>
+						<label for="slide2-review"></label>
+						<label for="slide3-review"></label>
+					</div>
+				</div>	
+			</section>
+		</main>
+		<footer class="main-footer">
+			<div class="main-footer-top container">
+				<section class="main-footer-top__contacts contacts">
+					<h2 class="visually-hidden">Контакты</h2>
+					<ul class="contacts__contact-list contact-list">
+						<li class="contact-list__item">
+							<p class="contact-list__title">Адрес:</p>
+							<p class="contact-list__info">Московский проспект, 22</p>
+						</li>
+						<li class="contact-list__item">
+							<p class="contact-list__title">Телефон:</p>
+							<p class="contact-list__info">8 (812) 690-10-10</p>
+						</li>
+						<li class="contact-list__item">
+							<p class="contact-list__title">График работы:</p>
+							<p class="contact-list__info">Пн-Вс с 08:00 до 21:00</p>
+						</li>
+						<li class="contact-list__item">
+							<p class="contact-list__title">Email:</p>
+							<p class="contact-list__info">yogaspb@gmail.com</p>
+						</li>
+					</ul>
+					<ul class="contacts__social-list social-list">
+						<li class="social-list__item">
+							<a class="social-list__link social-list__link--vk" href="#">
+								<img class="social-list__img" src="img/logo-vk.svg" width="13" height="8" alt="ВК">
+							</a>
+						</li>
+						<li class="social-list__item">
+							<a class="social-list__link social-list__link--tw" href="#">
+								<img class="social-list__img" src="img/logo-tw.svg" width="15" height="10" alt="Твиттер">
+							</a>
+						</li>
+						<li class="social-list__item">
+							<a class="social-list__link social-list__link--fb" href="#">
+								<img class="social-list__img" src="img/logo-fb.svg" width="5" height="10" alt="Фейсбук">
+							</a>
+						</li>
+					</ul>
+				</section>
+				<section class="main-footer-top__feedback feedback">
+					<h2 class="feedback__title title">Запишитесь на бесплатное пробное занятие</h2>
+					<form class="feedback__form form" method="post" action="https://echo.htmlacademy.ru">
+						<input class="form__input" type="text" name="form-name" placeholder="Ваше имя" required>
+						<input class="form__input" type="tel" name="form-number" placeholder="Ваш телефон" required>
+						<button class="form__button" type="submit">Оставить заявку</button>
+					</form>
+				</section>
+			</div>
+			<div class="main-footer-bottom">
+				<div class="main-footer-bottom__wrapper container">
+					<p>Yogaspb.com</p>
+					<p>© 2022   Все права защищены</p>
+				</div>
+			</div>
+		</footer>
+	</body>       
+</html>

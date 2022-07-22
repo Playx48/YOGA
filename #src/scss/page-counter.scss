@@ -1,0 +1,64 @@
+
+.promo, .courses, .club-cards, .our-team, .gallery, .reviews {
+    position: relative;
+    &::before {
+        position: absolute;
+        top: 50%;
+        right: calc(0% + 70px);
+
+        font-family: 'Abhaya Libre', "Arial", sans-serif;
+        font-size: 30px;
+        font-weight: 700;
+        color: rgba(174, 164, 200, 0.5);
+    }
+    &::after {
+        position: absolute;
+        content: "";
+        top: calc(50% + 8px);
+        right: 0;
+        width: 56px;
+        height: 1px;
+
+        background-color: rgba(139, 126, 172, 0.73)
+    }
+}
+
+.promo {
+    &::before {
+        content: "01";
+        color: rgba(255, 255, 255, 0.5);
+    }
+    &::after {
+        background-color: rgba(255, 255, 255, 0.73);
+    }
+}
+
+.courses {
+    &::before {
+        content: "02";
+    }
+}
+
+.club-cards {
+    &::before {
+        content: "03";
+    }
+}
+
+.our-team {
+    &::before {
+        content: "04";
+    }
+}
+
+.gallery {
+    &::before {
+        content: "05";
+    }
+}
+
+.reviews {
+    &::before {
+        content: "06";
+    }
+}

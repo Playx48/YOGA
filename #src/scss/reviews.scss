@@ -1,0 +1,216 @@
+
+  .reviews {
+    margin-bottom: 64px;
+  }
+  
+  .reviews__wrapper {
+    position: relative;
+    width: 915px;
+    box-sizing: border-box;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  .review__input {
+    display: none;
+  }
+  
+  .review__inner {
+    width: 300%;
+  }
+  
+  .review__article {
+    position: relative;
+    float: left;
+    width: calc(100%/3);
+    height: 371px;
+  }
+  
+  /*---- SET UP CONTROL ----*/
+  
+  .review__slider-prev-next-control {
+    position: absolute;
+    top: 341px;
+    left: calc(50% - 56px);
+    width: 112px;
+    height: 30px;
+  }
+  
+  .review__slider-prev-next-control label {
+    display: none;
+    box-sizing: border-box;
+    width: 45px;
+    height: 30px;
+   
+    background-color: #8E80A9;
+    color: #ffffff;
+  }
+  
+  .review__slider-prev-next-control label:hover {
+    background-color: #ffffff;
+    transition: 0.3s;
+  }
+  
+  .review_slider-prev-next-control label:active {
+    background-color: #ffffff;
+    transition: 0.3s;
+  }
+
+  .review {
+    &__article {
+      display: flex;
+      justify-content: space-between;
+    }
+    &__left, &__right {
+      width: 442px;
+      height: 315px;
+      box-sizing: border-box;
+      margin: 5px;
+      padding-top: 72px;
+      padding-right: 42px;
+      padding-bottom: 25px;
+      padding-left: 87px;
+
+      background-color: #ffffff;
+      background-repeat: no-repeat;
+      background-image: url(../img/review-cite@1x.png);
+      background-position: 87px 42px;
+      background-size: 27px 23px;
+      box-shadow: 0 4px 5px rgba(142, 128, 169, 0.2);
+    }
+  }
+
+  .review-item {
+    display: flex;
+    flex-direction: column;
+    &__wrapper {
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      margin-top: auto;
+    }
+    &__inner {
+      display: flex;
+      flex-direction: column;
+    }
+    &__name {
+      font-style: normal;
+      font-size: 10px;
+      line-height: 20px;
+      font-weight: 500;
+      color: rgba(230, 92, 123, 0.7);
+    }
+    &__time {
+      font-size: 10px;
+      line-height: 20px;
+    }
+    &__foto {
+      margin-right: 13px;
+    }
+  }
+
+  /* Slider Styling */
+
+  .review__slider-wrapper {
+    width: 100%;
+    overflow: hidden;
+  }
+  
+  /*---- SET POSITION FOR SLIDE ----*/
+  
+  #slide1-review:checked ~ .review__slider-prev-next-control label:nth-child(2)::after, 
+  #slide1-review:checked ~ .review__slider-prev-next-control label:nth-child(3)::after, 
+  #slide2-review:checked ~ .review__slider-prev-next-control label:nth-child(1)::after,
+  #slide2-review:checked ~ .review__slider-prev-next-control label:nth-child(3)::after,
+  #slide3-review:checked ~ .review__slider-prev-next-control label:nth-child(2)::after, 
+  #slide3-review:checked ~ .review__slider-prev-next-control label:nth-child(1)::after
+    {  
+    display: block;
+
+    font-family: FontAwesome;
+    font-size: 25px;
+    line-height: 30px;
+  }
+  
+  /* стрелка вправо */
+  
+  #slide3-review:checked ~ .review__slider-prev-next-control label:nth-child(1)::after, 
+  #slide2-review:checked ~ .review__slider-prev-next-control label:nth-child(3)::after,
+  #slide1-review:checked ~ .review__slider-prev-next-control label:nth-child(2)::after 
+    {
+    content: "";
+    padding-left: 18px;
+  }
+  
+  #slide3-review:checked ~ .review__slider-prev-next-control label:nth-child(1):hover::after, 
+  #slide2-review:checked ~ .review__slider-prev-next-control label:nth-child(3):hover::after,
+  #slide1-review:checked ~ .review__slider-prev-next-control label:nth-child(2):hover::after 
+    {
+    height: 28px;
+    color: #8E80A9;
+    border: 1px solid rgba(142, 128, 169, 1);
+  } 
+  
+  #slide3-review:checked ~ .review__slider-prev-next-control label:nth-child(1):active::after, 
+  #slide2-review:checked ~ .review__slider-prev-next-control label:nth-child(3):active::after,
+  #slide1-review:checked ~ .review__slider-prev-next-control label:nth-child(2):active::after 
+    {
+    height: 28px;
+    color: #8E80A9;
+    border: 1px solid rgba(142, 128, 169, 1);
+  } 
+  
+  /*cтрелка влево */
+  #slide1-review:checked ~ .review__slider-prev-next-control label:nth-child(3)::after, 
+  #slide3-review:checked ~ .review__slider-prev-next-control label:nth-child(2)::after,
+  #slide2-review:checked ~ .review__slider-prev-next-control label:nth-child(1)::after 
+    {
+    content: "";
+    padding-left: 18px;
+  }
+  
+  #slide1-review:checked ~ .review__slider-prev-next-control label:nth-child(3):hover::after, 
+  #slide3-review:checked ~ .review__slider-prev-next-control label:nth-child(2):hover::after,
+  #slide2-review:checked ~ .review__slider-prev-next-control label:nth-child(1):hover::after 
+    {
+      height: 28px;
+      color: #8E80A9;
+      border: 1px solid rgba(142, 128, 169, 1);
+  }
+  
+  #slide1-review:checked ~ .review__slider-prev-next-control label:nth-child(3):active::after, 
+  #slide3-review:checked ~ .review__slider-prev-next-control label:nth-child(2):active::after,
+  #slide2-review:checked ~ .review__slider-prev-next-control label:nth-child(1):active::after 
+    {
+      color: #8E80A9;
+  }
+  
+  /* кнопка вправо отражается*/
+  #slide3-review:checked ~ .review__slider-prev-next-control label:nth-child(1),
+  #slide2-review:checked ~ .review__slider-prev-next-control label:nth-child(3), 
+  #slide1-review:checked ~ .review__slider-prev-next-control label:nth-child(2) 
+    {
+    display: block;
+    float: right;
+  }
+  
+  /*кнопка влево отражается*/
+  #slide1-review:checked ~ .review__slider-prev-next-control label:nth-child(3),
+  #slide3-review:checked ~ .review__slider-prev-next-control label:nth-child(2),
+  #slide2-review:checked ~ .review__slider-prev-next-control label:nth-child(1) 
+    {
+    display: block;
+    float: left;
+  }
+  
+  #slide1-review:checked ~ .review__slider-wrapper .review__inner {
+    margin-left: 0%;
+  }
+  #slide2-review:checked ~ .review__slider-wrapper .review__inner {
+    margin-left: -100%;
+  }
+  #slide3-review:checked ~ .review__slider-wrapper .review__inner {
+    margin-left: -200%;
+  }
+  
+  
